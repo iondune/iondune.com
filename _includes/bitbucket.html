@@ -1,0 +1,8 @@
+  <div class="{% if include.class %}{{ include.class }}{% else %}col-md-6{% endif %}">
+    <div class="list-group">
+      <a href="https://bitbucket.org/iondune/{{ include.project }}" class="list-group-item">
+        <img src="{{ "img/bitbucket/Logo.png" | prepend: site.baseurl }}" width="417" height="120" />
+        <h4 class="list-group-item-heading">Fork me on BitBucket!</h4>
+      </a>
+    </div>
+  </div>

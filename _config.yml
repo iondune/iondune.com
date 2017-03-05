@@ -1,0 +1,7 @@
+
+# Site settings
+baseurl: "/"
+url: "http://projects.iondune.com"
+
+# Build settings
+markdown: kramdown

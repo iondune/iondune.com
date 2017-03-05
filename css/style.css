@@ -1,0 +1,56 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 110%;
+  padding-top: 70px;
+}
+
+.well img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.no-break {
+  display: inline;
+}
+
+.large {
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.portfolio-caption-over {
+  margin-top: -67px;
+}
+
+.portfolio-caption-over h3 {
+  margin-bottom: 0px;
+  color: white;
+}
+
+.portfolio-placard-img {
+  cursor: pointer;
+}
+
+li.active {
+  background-color: rgb(240, 240, 240);
+}
