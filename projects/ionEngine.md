@@ -1,8 +1,8 @@
 ---
 layout: default
 title: ionEngine
-permalink: /projects/ionengine/
 active: projects
+simple_layout: true
 ---
 
 

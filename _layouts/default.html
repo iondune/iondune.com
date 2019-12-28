@@ -1,36 +1,36 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="portfolio and compendium of projects">
     <meta name="author" content="ian dunn">
-    <link rel="shortcut icon" href="{{ "favicon.ico" | prepend: site.baseurl }}">
 
-    <title>Projects | Ian Dunn</title>
+  <title>{{ page.title }}</title>
+  <link rel="shortcut icon" href="{{ "favicon.ico" | prepend: site.baseurl }}">
 
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link href="//fonts.googleapis.com/css?family=Roboto:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="{{ baseurl }}/css/normalize.css">
+  <link rel="stylesheet" href="{{ baseurl }}/css/skeleton.css">
+  <link rel="stylesheet" href="{{ baseurl }}/css/custom.css">
 
-    <link rel="stylesheet" href="{{ "css/main.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ "css/style.css" | prepend: site.baseurl }}">
 </head>
-
 <body>
+  <div class="container" id="main-container">
+    <div class="title-block">{{ page.title }}</div>
 
-    <div class="container">
-      {{ content }}
-    </div>
+{% unless page.skip_breadcrumb %}
+    <div class="breadcrumb-block"><a href="{{ baseurl }}/">&larr; Home</a></div>
+{% endunless %}
 
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+<div class="content">
 
-<script src="//static.getclicky.com/js" type="text/javascript"></script>
-<script type="text/javascript">try{ clicky.init(100786718); }catch(e){}</script>
-<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100786718ns.gif" /></p></noscript>
+  {{ content }}
 
+</div>
+
+  </div>
 </body>
-
 </html>
