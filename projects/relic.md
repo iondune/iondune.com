@@ -8,7 +8,7 @@ override_color: "#28b836"
 
 Relic is the name I used for the procedural terrain rendering system I built as my Masters' thesis at Cal Poly.
 
-[You can download the full thesis pdf here.]({{site.baseurl}}content/ProceduralGenerationandRenderingofEnvironments.pdf)
+[You can download the full thesis pdf here.]({{ "content/ProceduralGenerationandRenderingofEnvironments.pdf" | relative_url }})
 
 [It is hosted by Cal Poly digital commons here.](https://digitalcommons.calpoly.edu/theses/1678/)
 
