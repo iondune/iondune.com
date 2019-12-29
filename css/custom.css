@@ -8,6 +8,11 @@ body {
   background-color: #fff;
 }
 
+.container {
+  width: 100%; /* override skeleton's margins on small screens */
+  padding: 0;
+}
+
 @media (min-width: 550px) {
   body {
     background: #f5f5f5;
@@ -18,7 +23,6 @@ body {
     box-shadow: 0 2px 4px rgba(0,0,0,.1);
   }
 }
-
 
 .content {
   padding: 30px;
