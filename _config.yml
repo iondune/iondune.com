@@ -1,6 +1,6 @@
 
 # Site settings
-baseurl: "/"
+baseurl: ""
 url: "http://projects.iondune.com"
 
 # Build settings

@@ -22,8 +22,8 @@ Relic is the name I used for the procedural terrain rendering system I built as 
 {% endif %}
 
 <div class="one-third column">
-  <a href="{{ site.baseurl }}img/relic/screenshot{{ i }}.png">
-    <img class="img-thumbnail" src="{{ site.baseurl }}img/relic/screenshot{{ i }}.jpg" alt="{{ screenshot.file }}" />
+  <a href="{{ site.baseurl }}/img/relic/screenshot{{ i }}.png">
+    <img class="img-thumbnail" src="{{ site.baseurl }}/img/relic/screenshot{{ i }}.jpg" alt="{{ screenshot.file }}" />
   </a>
 </div>
 
