@@ -73,3 +73,18 @@ body {
 .title-text {
   vertical-align: middle;
 }
+
+/* Borrowed from Lagom theme used on old blog */
+ul.posts {
+  margin-top: 0;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+ul.posts li {
+  margin-bottom: 0px;
+}
+ul.posts span {
+  font-family: 'Lucida Console', 'Andale Mono', monospace;
+  color: #aaa;
+  padding-right: 10px;
+}

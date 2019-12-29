@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="portfolio and compendium of projects">
+    <meta name="author" content="ian dunn">
+
+  <title>{{ page.title }}</title>
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  <link href="//fonts.googleapis.com/css?family=Roboto:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="stylesheet" href="/css/custom.css">
+  <link rel="stylesheet" href="/css/blog.css">
+
+</head>
+<body>
+  <div class="container" id="main-container">
+    <div class="title-block" style="background-color: {{ page.override_color | default: "#28b836" }}">
+      <img class="title-logo" src="/img/logo.png" />
+      <span class="title-text">Alluvial Dev Blog (Archive)</span>
+    </div>
+
+    <div class="breadcrumb-block">
+      <a style="color: {{ page.override_color | default: "#28b836" }}" href="/">&larr; Home</a>
+      <a style="color: {{ page.override_color | default: "#28b836" }}" href="/projects/alluvial">&larr; Alluvial</a>
+    </div>
+
+<div class="content">
+
+  <div class="post-navigation">
+    {% if page.previous.url %}
+      <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+    {% endif %}
+    {% if page.next.url %}
+      <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+    {% endif %}
+  </div>
+
+    <h2>{{ page.title }}</h2>
+
+  {{ content }}
+
+</div>
+
+  </div>
+</body>
+</html>

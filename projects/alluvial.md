@@ -11,12 +11,19 @@ Alluvial is an open-world RPG game I am working on in my spare time.
 While at university I worked on some prototypes for distant terrain rendering and voxel collision systems.
 For my [master's thesis](/projects/relic), I spent two years working on an open-world game engine
 with procedural environment generation, a terrain voxel system, and distant forest and terrain rendering.
+Since then I have been working on improving those features and expanding the engine.
 
-At the end of last year I finished my thesis and started working part-time as a teacher so that I could focus some time on Alluvial as well.
-I did some work on the terrain generation system to increase modularity and make it easier to add new biomes and features.
-Then, I revisited the voxel terrain system to improve the appearance and performance.
+## Dev Blog
 
-My current work is focusing on the landscape generation.
+In 2017 I wrote a series of dev blog posts documenting my existing features and new development.
+I didn't find it a very effective way to share progress updates on the game, so I stopped making new posts.
+But I've archived all of the old posts here:
+
+<ul id="blog-posts" class="posts">
+{% for post in site.posts %}
+  <li><span>- {{ post.date | date_to_string }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
 
 ## Current Screenshots
 
