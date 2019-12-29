@@ -52,3 +52,20 @@ body {
 .img-thumbnail {
   max-width: 100%;
 }
+
+.title-logo {
+  display: none; /* hide on mobile */
+}
+
+@media (min-width: 550px) {
+  .title-logo {
+    max-height: 1em;
+    vertical-align: middle;
+
+    display: inline-block;
+  }
+}
+
+.title-text {
+  vertical-align: middle;
+}

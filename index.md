@@ -2,6 +2,7 @@
 layout: default
 title: iondune
 skip_breadcrumb: true
+show_logo: true
 ---
 
 
