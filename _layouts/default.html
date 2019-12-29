@@ -19,10 +19,10 @@
 </head>
 <body>
   <div class="container" id="main-container">
-    <div class="title-block">{{ page.title }}</div>
+    <div class="title-block" style="background-color: {{ page.override_color | default: "#348ce3" }}">{{ page.title }}</div>
 
 {% unless page.skip_breadcrumb %}
-    <div class="breadcrumb-block"><a href="{{ baseurl }}/">&larr; Home</a></div>
+    <div class="breadcrumb-block"><a style="color: {{ page.override_color | default: "#348ce3" }}" href="{{ baseurl }}/">&larr; Home</a></div>
 {% endunless %}
 
 <div class="content">

@@ -27,6 +27,8 @@ You can find details about those, and some older projects I've stopped working o
 
 ## Past Projects
 
+{% include project-card.html    image="relic"    name="Relic"                    link="projects/relic"                  description="Procedural terrain generation" %}
+
 {% include project-card.html    image="icex_vis"    name="ICEX Visualization"          link="projects/icex-vis"                  description="Volumetric data visualization" %}
 
 {% include project-card.html    image="fractal"    name="Fractal Renderer"            link="projects/fractal"                   description="Mandelbrot fractal renderer" %}
