@@ -11,7 +11,7 @@ show_logo: true
 Hi there.
 My name is Ian Dunn and this my personal website.
 
-- If you're looking for my resume or other similar info, check here: <http://iandunn.me>
+- If you're looking for my resume or other similar info, check here: <https://iandunn.me>
 - A few years ago I taught some classes at [Cal Poly](https://www.calpoly.edu/).
   You can find my old course material here: <https://calpoly-iandunn.github.io/>
 
