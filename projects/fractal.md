@@ -16,9 +16,6 @@ was produced by rendering each frame individually with super-sample anti-aliasin
 Towards the end, the image becomes blocky and fades to a single color when the precision (double) is no longer sufficient to differentiate individual pixels.
 The fractal itself actually continues on infinitely.
 
-<div class="row">
-  {% include bitbucket.html project="fractalrenderer" %}
-</div>
 
 ## Video
 
